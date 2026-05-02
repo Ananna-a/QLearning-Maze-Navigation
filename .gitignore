@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.so
+
+# 虚拟环境
+.venv/
+
+# 训练记录（可选，可保留用于回放）
+# last_training_record.json
+
+# LaTeX 构建产物
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/*.fdb_latexmk
+report/*.fls
+report/*.synctex.gz
+report/*.bbl
+report/*.blg
